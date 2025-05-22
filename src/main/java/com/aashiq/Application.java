@@ -14,10 +14,9 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
     @GetMapping
-    public String helloWorld()
+    public String welcome()
     {
-        return "Hello World Spring";
-
+        return "Welcome to Spring Boot";
     }
 
 }
