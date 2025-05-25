@@ -2,3 +2,14 @@
 GET http://localhost:8080
 ###
 GET http://localhost:8080/software-engineers
+###
+GET http://localhost:8080/software-engineers/2
+
+###
+POST http://localhost:8080/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Mohd",
+  "techStack": "Python, FastAPI"
+}
